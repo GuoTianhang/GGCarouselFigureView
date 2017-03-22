@@ -15,6 +15,7 @@
 		12633A9E1E7FC55C00B7171E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12633A9C1E7FC55C00B7171E /* LaunchScreen.storyboard */; };
 		12633AA91E7FC55C00B7171E /* GGCarouselFigureViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12633AA81E7FC55C00B7171E /* GGCarouselFigureViewTests.m */; };
 		12633AB41E7FC55C00B7171E /* GGCarouselFigureViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12633AB31E7FC55C00B7171E /* GGCarouselFigureViewUITests.m */; };
+		12DA37C81E810B06007686C3 /* GGCarouselFigureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA37C71E810B06007686C3 /* GGCarouselFigureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		12633AAF1E7FC55C00B7171E /* GGCarouselFigureViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGCarouselFigureViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12633AB31E7FC55C00B7171E /* GGCarouselFigureViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGCarouselFigureViewUITests.m; sourceTree = "<group>"; };
 		12633AB51E7FC55C00B7171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12DA37C61E810B06007686C3 /* GGCarouselFigureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCarouselFigureView.h; sourceTree = "<group>"; };
+		12DA37C71E810B06007686C3 /* GGCarouselFigureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCarouselFigureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				12633A921E7FC55C00B7171E /* AppDelegate.m */,
 				12633A941E7FC55C00B7171E /* ViewController.h */,
 				12633A951E7FC55C00B7171E /* ViewController.m */,
+				12DA37C61E810B06007686C3 /* GGCarouselFigureView.h */,
+				12DA37C71E810B06007686C3 /* GGCarouselFigureView.m */,
 				12633A971E7FC55C00B7171E /* Main.storyboard */,
 				12633A9A1E7FC55C00B7171E /* Assets.xcassets */,
 				12633A9C1E7FC55C00B7171E /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				12633A961E7FC55C00B7171E /* ViewController.m in Sources */,
 				12633A931E7FC55C00B7171E /* AppDelegate.m in Sources */,
+				12DA37C81E810B06007686C3 /* GGCarouselFigureView.m in Sources */,
 				12633A901E7FC55C00B7171E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +511,7 @@
 				12633ABA1E7FC55C00B7171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12633ABB1E7FC55C00B7171E /* Build configuration list for PBXNativeTarget "GGCarouselFigureViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				12633ABD1E7FC55C00B7171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12633ABE1E7FC55C00B7171E /* Build configuration list for PBXNativeTarget "GGCarouselFigureViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				12633AC01E7FC55C00B7171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

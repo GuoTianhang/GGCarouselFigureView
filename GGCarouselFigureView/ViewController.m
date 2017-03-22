@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GGCarouselFigureView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    NSArray *pictureArray = @[[UIImage imageNamed:@"kaka1"]];
+//    NSArray *pictureArray = @[[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"]];
+    NSArray *pictureArray = @[[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"]];
+//    NSArray *pictureArray = @[[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"],[UIImage imageNamed:@"kaka1"], [UIImage imageNamed:@"kaka2"], [UIImage imageNamed:@"kaka3"]];
+
+    GGCarouselFigureView *carouselFigureView = [[GGCarouselFigureView alloc] initWithFrame:CGRectZero PictureArray:pictureArray];
+    [self.view addSubview:carouselFigureView];
+    [self.view addSubview:carouselFigureView.pageControl];
+    [carouselFigureView.pageControl setCurrentPageIndicatorTintColor:[UIColor redColor]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
